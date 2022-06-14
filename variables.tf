@@ -40,11 +40,6 @@ variable "accepter_aws_token" {
   default     = null
 }
 
-variable "accepter_region" {
-  type        = string
-  description = "Accepter AWS region"
-}
-
 variable "accepter_vpc_id" {
   type        = string
   description = "Accepter VPC ID filter"
